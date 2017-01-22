@@ -6,7 +6,7 @@
             <div class="teamer-display">
                 <div v-for="teamer in teamers" class="teamer">
                     <el-card :body-style="{ padding: '0px' }">
-                        <img :src="teamer.img" class="image">
+                        <img :src="teamer.img" class="image" width="100%">
                         <div style="padding: 14px;">
                             <b>{{teamer.name}}</b><br/>
                             <span>{{teamer.introduction}}</span>
@@ -32,7 +32,7 @@
     }
 
     .teamer-container {
-        max-width: 100rem;
+        max-width: 60rem;
         padding: 1rem;
     }
 

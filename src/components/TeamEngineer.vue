@@ -1,5 +1,5 @@
 <template>
-    <partial-teamer-list :introduction="introduction" :teamers="teamers"></partial-teamer-list>
+    <partial-teamer-list :title="title" :introduction="introduction" :teamers="teamers"></partial-teamer-list>
 </template>
 
 <script>

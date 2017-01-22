@@ -4,7 +4,7 @@
         <el-carousel indicator-position="outside">
             <el-carousel-item v-for="item in carousel">
                 <h3>{{ item.text }}</h3>
-                <img :src="item.img" />
+                <img :src="item.img" width="100%" height="auto"/>
             </el-carousel-item>
         </el-carousel>
         <!-- tags -->
