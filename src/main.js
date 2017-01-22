@@ -34,7 +34,8 @@ const routes = [
               path: 'commercial',
               component: TeamCommercial
           }
-      ]}
+      ]},
+    { path: '*', redirect: '/' }
 ];
 
 const router = new VueRouter({
